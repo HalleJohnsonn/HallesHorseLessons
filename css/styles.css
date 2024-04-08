@@ -2,7 +2,7 @@
 /*
    sample start file for final project - educational use only
    
-   Author:   
+   Author:   Halle Johnson
    Date:     
    
   
@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-color: orange;
 }
 
 #container {
@@ -52,14 +52,14 @@ nav ul {
 }
 
 nav ul li a {
-    padding: 5px;
-    color: gray;
+    padding: 20px;
+    color: orange;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
-    background: gray;
+    background: #ADD8E6;
     border-radius: 10px;
     color: white;
 }
@@ -68,14 +68,14 @@ nav ul li a:hover {
     width: 446px;
     padding: 10px;
     float: left;
-    color: black;
+    color: #964B00;
     border-left: 2px solid;
     border-right: 2px solid;    
     background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
-    text-indent: 1.5em;
+    text-indent: 0.5em;
 }
 
 figure{
@@ -95,8 +95,10 @@ aside {
 }
 
 aside p {
-    font-style: italic;
-    font-size: 0.9em;
+    font-style: normal;
+    font-size: 1.1em;
+    color: orange;
+    padding: 0.2em;
 }
 
 h2 {
@@ -109,15 +111,19 @@ h3 {
     text-align: center;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
+    color: #964B00;
 }
 
+h4 {
+	image: center;
+}
 footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: #ADD8E6;
     clear: both;
-    color: wheat;
+    color: orange;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -129,6 +135,7 @@ footer {
     margin-bottom: 10px;
     border: 2px solid;
     border-radius: 25px;
+    
 }/* navigation for footer */
 footer a:link {
     color: white;
@@ -136,7 +143,7 @@ footer a:link {
 }
 
 footer a:visited {
-    color: navy;
+    color: white;
     background-color: grey;
     text-decoration: none;
 }
@@ -144,3 +151,67 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Form Layout Styles */
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+}
+
+form#survey {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+form#survey > fieldset {
+	background-color: rgb(241, 232, 181);
+	border-radius: 20px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+/* Legend Styles */
+
+legend {
+	background-color: rgb(179, 20, 25);
+	color: white;
+	padding: 5px;
+}
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height:100px;
+	width: 95%;
+}
+
+/* Spinner Styles */
+
+
+
+/* Form Button Styles */
+
+div#buttons {
+	text-align: center;
+	width: 100%;
+}
+
+input[type='submit'],input[type=reset] {
+	font-size: 1.2em;
+	padding: 5px;
+	margin: 15px;
+}
+
+
+/* Validation Styles */
+
+
