@@ -71,7 +71,6 @@ nav ul li a:hover {
     color: #964B00;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
@@ -101,8 +100,9 @@ aside p {
     padding: 0.2em;
 }
 
-h2 {
-    font-size: 1.4em;
+h2
+
+    font-size: 0.9em;
     text-align: center;
     padding-bottom: 0.5em;
 }
@@ -112,7 +112,10 @@ h3 {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
     color: #964B00;
+    font-size: 1.4em;
 }
+
+<h2>Get In Touch!</h2>
 
 h4 {
 	image: center;
