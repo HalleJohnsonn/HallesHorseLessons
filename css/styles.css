@@ -100,7 +100,7 @@ aside p {
     padding: 0.2em;
 }
 
-h2
+h2 {
 
     font-size: 0.9em;
     text-align: center;
@@ -115,11 +115,12 @@ h3 {
     font-size: 1.4em;
 }
 
-<h2>Get In Touch!</h2>
+
 
 h4 {
 	image: center;
 }
+
 footer {
     width: 910px;
     margin: 0;
@@ -234,4 +235,5 @@ table.schedule th, table.schedule td {
 	border: 1px solid gray;
 	padding: 5px;
 	vertical-align: top;
+
 
